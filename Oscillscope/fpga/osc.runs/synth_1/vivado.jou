@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jul 11 00:02:43 2024
+# Process ID: 546169
+# Current directory: /home/michael/Dokumente/Freizeit-Projekte/RedPitaya/Oscillscope/fpga/osc.runs/synth_1
+# Command line: vivado -log osc.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source osc.tcl
+# Log file: /home/michael/Dokumente/Freizeit-Projekte/RedPitaya/Oscillscope/fpga/osc.runs/synth_1/osc.vds
+# Journal file: /home/michael/Dokumente/Freizeit-Projekte/RedPitaya/Oscillscope/fpga/osc.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source osc.tcl -notrace
