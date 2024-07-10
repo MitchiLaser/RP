@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Pitaya.md",
+                "file": "Hardware/ADC.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red Pitaya.md",
+                "file": "Hardware/ADC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red Pitaya.md",
+                "file": "Hardware/ADC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red Pitaya.md"
+                "file": "Hardware/ADC.md"
               }
             }
           }
@@ -176,15 +176,15 @@
   },
   "active": "0e7819928a248241",
   "lastOpenFiles": [
-    "Link-Sammlung.md",
-    "Hardware/Hardware.md",
-    "Stützstellen_FIR_Filter.png",
-    "Hardware/FPGA-Chip.md",
-    "Hardware/DAC.md",
     "Hardware/ADC.md",
-    "FPGA Entwicklung/FPGA Entwicklung.md",
-    "MCPHA/Filter im Code von Pavel.md",
+    "Hardware/Hardware.md",
     "Red Pitaya.md",
+    "Hardware/DAC.md",
+    "Hardware/FPGA-Chip.md",
+    "FPGA Entwicklung/FPGA Entwicklung.md",
+    "Link-Sammlung.md",
+    "Stützstellen_FIR_Filter.png",
+    "MCPHA/Filter im Code von Pavel.md",
     "MCPHA",
     "Linux/Linux-Umgebung.md",
     "Linux/Serielle Konsole.md",

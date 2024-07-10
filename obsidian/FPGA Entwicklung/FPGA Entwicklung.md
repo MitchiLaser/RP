@@ -2,6 +2,10 @@ Das FPGA kann mit der Software Vivado von AMD (ehemals Xilinx) programmiert werd
 
 Die RP Beispiel-Projekte sowie der fertige Bitstream für die RP Anwendungen wurden mit Vivado Version `2020.1` erstellt. Die Projekte von Pavel wurden mit Version `2020.2` erstellt. Leider ist es nicht ohne großen Aufwand möglich, beides mit einer gemeinsamen Vivado Version zu öffnen.
 
+## The Zynq Chip
+
+The FPGA chip, to be selected in the Vivado IDE, is a Zynq xc7z010clg400-1
+
 ## Bitstream in das FPGA laden
 
 Um eine `.bit` Datei auf das FPGA hochzuladen, muss der Inhalt in das entsprechende Block-Device geschrieben werden:
