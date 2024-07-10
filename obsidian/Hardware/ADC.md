@@ -57,3 +57,16 @@ The ADC chip expects the input clock to have a $\pu{50 \% \pm{} 5 \%}$ duty cycl
 |  D2_13  |          Y18           |
 |  D2_-1  |     (Not used) R16     |
 |  D2_-2  |     (Not used) T17     |
+## Digital Data Format
+The ADC has two modes in which it returns the acquired data:
+1. Offset binary mode: The voltage of $\pu{0 V}$ is shifted to the value $0x2000$. All positive voltages are added to this offset and all negative voltages are subtracted from it so that a voltage of $\geq \pu{1 V}$ is equal to $0x3FFF$ and a voltage of $\leq \pu{-1 V}$ is equal to $0x0000$. The overflow bits cannot be used because they are not connected to the FPGA on the RP.
+2. 2's complement: by setting the serial programming register A4, the output format can be selectet to the two's complement.
+On the RP the ADC is in the Offset binary mode becuause accessing the SPI pins for serial programming is not possible as these pins are not connected to anything.
+
+### Conversion from Offset binary representation to 2's complement.
+As already mentioned the data is returned in the offset binary representation by the ADC. To convert the sampled value into 2's complement the raw adc values needs to be treated as an unsigned integer from which the constant offset is being subtracted with the result being treated as a signed integer.
+$$
+two\_comp = std\_logic\_vector( signed(unsigned(offs\_bin) - 0x2000) )
+$$
+(a Pseudo-Code depiction of the procedure)
+
